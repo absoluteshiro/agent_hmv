@@ -1,0 +1,31 @@
+# Configuracoes locais e segredos
+.env
+.env.*
+credentials.json
+token.json
+client_secret*.json
+
+# Banco de dados e backups
+*.db
+*.sqlite
+*.sqlite3
+*.db-wal
+*.db-shm
+*.bak
+backup/
+backups/
+
+# Ambiente Python e caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Dados e documentos locais
+armazenamento/
+*.pdf
+*.log
+.DS_Store
+Thumbs.db
